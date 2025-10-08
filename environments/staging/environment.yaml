@@ -64,7 +64,7 @@ app:
   # is only available on an internal endpoint accessible to other applications
   # within a subscription.
   endpoints: public
-  startupTimeout: 140
+  startupTimeout: 20
   startupCheckInterval: "150"
   checkInterval: "10"
 
