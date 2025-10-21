@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: "b8120da6-88ef-4d11-90c4-c640cde22722"
+  version: "2e7a986d-699a-4d57-8a82-49693812ab07"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
@@ -64,7 +64,7 @@ app:
   # is only available on an internal endpoint accessible to other applications
   # within a subscription.
   endpoints: public
-  startupTimeout: 400
+  startupTimeout: 1
 
   # Set the Java runtime version for the application. Set to 8 for IBM Java 8,
   # 17 for IBM Semeru 17, or 21 for IBM Semeru 21. If not set, the service
